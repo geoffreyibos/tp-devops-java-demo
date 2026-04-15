@@ -14,5 +14,10 @@ pipeline {
                 }
             }
         }
+        stage('Publish to Nexus') {
+            steps {
+                bat 'mvn deploy -DskipTests'
+            }
+        }
     }
 }
