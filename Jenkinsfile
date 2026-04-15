@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/TON-USER/TON-REPO.git'
+                git 'https://github.com/geoffreyibos/tp-devops-java-demo.git'
             }
         }
 
