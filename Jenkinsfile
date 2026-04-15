@@ -2,14 +2,7 @@ pipeline {
     agent any
 
     stages {
-
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/geoffreyibos/tp-devops-java-demo.git'
-            }
-        }
-
-        stage('Build & Test') {
+        stage('Build') {
             steps {
                 bat 'mvn clean verify'
             }
