@@ -63,11 +63,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>${env.NEXUS_SNAPSHOT_URL}</url>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus-releases</id>
-            <url>${env.NEXUS_RELEASE_URL}</url>
+            <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 </project>
