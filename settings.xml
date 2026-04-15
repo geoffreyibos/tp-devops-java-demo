@@ -1,0 +1,14 @@
+<settings>
+  <servers>
+    <server>
+      <id>nexus-snapshots</id>
+      <username>admin</username>
+      <password>TON_MDP_NEXUS</password>
+    </server>
+    <server>
+      <id>nexus-releases</id>
+      <username>admin</username>
+      <password>TON_MDP_NEXUS</password>
+    </server>
+  </servers>
+</settings>
