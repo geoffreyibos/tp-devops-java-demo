@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Publish to Nexus') {
             steps {
-                bat 'mvn deploy -DskipTests'
+                bat 'mvn deploy -DskipTests -s C:\\home\\geoffrey\\.m2\\settings.xml'
             }
         }
     }
