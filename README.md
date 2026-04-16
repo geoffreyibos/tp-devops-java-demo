@@ -1,6 +1,7 @@
 # TP DevOps Java Demo
 
 Petit projet Java/Maven prêt à être utilisé dans un TP DevOps avec GitHub, Jenkins, SonarQube et Nexus.
+Voir le rapport dans EFREI ING2 - DevOps - Rapport TP Jenkins.pdf
 
 ## Contenu
 
